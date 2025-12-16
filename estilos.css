@@ -1,0 +1,377 @@
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(to bottom right, #e0f2fe, #eff6ff);
+    margin: 0;
+    padding: 0;
+    color: #1e293b;
+}
+
+
+.caja-login {
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.caja-login:hover {
+    transform: translateY(-5px);
+}
+
+.caja-login h1 {
+    text-align: center;
+    color: #1e3a8a;
+    text-shadow: 2px 2px 4px #93c5fd;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.caja-login input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.caja-login input:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 6px #60a5fa;
+}
+
+.caja-login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.caja-login button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.caja-login a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.caja-login a:hover {
+    text-decoration: underline;
+}
+
+
+header .navbar {
+    background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+}
+
+.album {
+    background: #f8fafc;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background: #ffffff;
+}
+
+.card-text strong {
+    color: #1e3a8a;
+}
+
+
+.btn-outline-primary {
+    color: #2563eb;
+    border-color: #2563eb;
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+}
+
+
+.autor {
+    margin: 3em auto;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2.5em;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.autor:hover {
+    transform: translateY(-5px);
+}
+
+.autor h2 {
+    text-align: center;
+    color: #1e3a8a;
+    text-shadow: 1px 1px 3px #a5b4fc;
+}
+
+.foto-autor {
+    display: block;
+    margin: 0 auto 1.5em;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.3em;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+
+#tema1 h1 {
+    color: #2563eb;
+    text-shadow: 0 0 10px rgba(37, 99, 235, 0.6), 0 0 25px rgba(37, 99, 235, 0.3);
+}
+
+#tema2 h1 {
+    color: #059669;
+    text-shadow: 0 0 10px rgba(5, 150, 105, 0.6), 0 0 25px rgba(5, 150, 105, 0.3);
+}
+
+#tema3 h1 {
+    color: #eab308;
+    text-shadow: 0 0 10px rgba(234, 179, 8, 0.7), 0 0 25px rgba(234, 179, 8, 0.3);
+}
+
+#tema4 h1 {
+    color: #dc2626;
+    text-shadow: 0 0 10px rgba(220, 38, 38, 0.6), 0 0 25px rgba(220, 38, 38, 0.3);
+}
+
+
+.volver-arriba {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.volver-arriba a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.volver-arriba a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(90deg, #1e3a8a, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.caja-login,
+.autor,
+.card,
+h1 {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+
+.contenedor-tema, .grid-tema, .revista-tema, .vertical-tema {
+    padding: 2em;
+}
+
+.caja-tema {
+    background: #fff;
+    border-radius: 15px;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+.caja-tema img {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.caja-tema .texto {
+    flex: 1;
+}
+
+
+.izquierda { flex-direction: row; }
+.derecha { flex-direction: row-reverse; }
+.centro { flex-direction: column; }
+
+
+.grid-tema {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.5em;
+}
+
+
+.revista-tema .horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.revista-tema .horizontal img {
+    width: 45%;
+}
+
+
+.vertical-tema .caja-tema {
+    flex-direction: column;
+    text-align: center;
+}
+
+.fondo-claro { background: #fee2e2; }
+.fondo-medio { background: #fecaca; }
+.fondo-oscuro { background: #fca5a5; color: #1e293b; }
+
+
+.caja-opinion {
+    max-width: 600px;
+    margin: 3em auto;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 2.5em;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.caja-opinion h2 {
+    color: #1e3a8a;
+    text-shadow: 1px 1px 3px #93c5fd;
+    margin-bottom: 10px;
+}
+
+.caja-opinion p {
+    color: #475569;
+    margin-bottom: 1.5em;
+}
+
+.form-opinion .campo {
+    text-align: left;
+    margin-bottom: 1.2em;
+}
+
+.form-opinion label {
+    display: block;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.form-opinion input,
+.form-opinion textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-opinion input:focus,
+.form-opinion textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 6px #93c5fd;
+}
+
+.form-opinion textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.form-opinion button {
+    width: 100%;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-opinion button:hover {
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}

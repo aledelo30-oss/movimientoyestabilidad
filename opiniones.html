@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opiniones - Movimiento y Estabilidad</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body id="tema2">
+  <header>
+    <h1>Opiniones</h1>
+  </header>
+
+  <nav>
+    <a href="menu.html"> Menú Principal</a> |
+    <a href="#top">⬆ Ir al inicio</a>
+  </nav>
+
+  <main>
+    <section class="caja-opinion">
+      <h2>Comparte tu opinión 💬</h2>
+      <p>Queremos saber qué te pareció este sitio y los temas sobre Movimiento y Estabilidad.</p>
+
+      <form action="guardarOpinion.php" method="POST" class="form-opinion">
+        <div class="campo">
+          <label for="correo">📧 Correo electrónico</label>
+          <input type="email" name="correo" id="correo" placeholder="Tu correo" required>
+        </div>
+
+        <div class="campo">
+          <label for="opinion">📝 Tu opinión</label>
+          <textarea name="opinion" id="opinion" placeholder="Escribe aquí tu opinión o sugerencia..." required></textarea>
+        </div>
+
+        <button type="submit">Enviar Opinión</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Movimiento y Estabilidad - 5PRAM | CBTis No. 65</p>
+  </footer>
+</body>
+</html>
